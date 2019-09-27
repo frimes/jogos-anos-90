@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 40px;
+	text-transform: uppercase;
+}
+li{
+	list-style: none;
+}
+nav{
+	display: flex;
+	justify-content: center;
+}
+.header__title{
+	font-size: 100px;
+	text-transform: uppercase;
+	display:flex;
+	justify-content: center;
+}
+.main__title{
+	font-size: 35px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.main__image{
+	width: 300px;
+}
