@@ -9,6 +9,12 @@ a{
 	margin: 40px;
 	text-transform: uppercase;
 }
+@media(max-width: 320px){
+	a{
+		margin: 20px;
+
+	}
+}
 li{
 	list-style: none;
 }
@@ -22,11 +28,50 @@ nav{
 	display:flex;
 	justify-content: center;
 }
+@media(max-width: 768px){
+	.header__title{
+		font-size: 70px;
+	}
+}
+@media(max-width: 425px){
+	.header__title{
+		font-size: 50px;
+
+	}
+}
+@media(max-width: 536px){
+	.header__title{
+		font-size: 55px;
+
+	}
+}
+@media(max-width: 375px){
+	.header__title{
+		font-size: 40px;
+
+	}
+}
 .main__title{
 	font-size: 35px;
 	text-transform: uppercase;
 	padding: 10px;
+	text-align: center;
+}
+@media(max-width: 375px){
+	.main__title{
+		font-size: 30px;
+
+	}
 }
 .main__image{
-	width: 300px;
+	width: 100%;
+}
+.box__image{
+	display: flex;
+	justify-content: space-around;
+}
+.main__paragraph{
+	font-size: 25px;
+	text-align: center;
+    padding: 20px;
 }
