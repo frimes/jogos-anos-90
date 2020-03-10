@@ -1,65 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<head>
-		<title>Games Anos 90</title>
-	</head>
-	<body>
-		<header>
-			<h1 class="header__title">jogos anos 90</h1>
-			<nav>
-				<ul>
-					<a href="#supermario"><li>super mario</li></a>
-					<a href="#sonic"><li>sonic</li></a>
-					<a href="#donkeykong"><li>donkey kong</li></a>
-					<a href="#zelda"><li>zelda</li></a>
-					<a href="#street"><li>street fighter</li></a>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<section>
-					<h1 class="main__title" id="supermario">super mario</h1>
-					<p class="main__paragraph">Super Mario é uma série de jogos de plataformas criados pela Nintendo, e com o seu mascote, Mario. Alternativamente chamada de série Super Mario Bros. ou simplesmente a série Mario, é a série central da franquia maior de Mario.</p>
-				<div class="box__image">
-					<a href="https://www.jogos360.com.br/super_mario/" target="blank_"><img src="assets/mariogame.png" class="main__image"></a>
-					<a href="https://www.jogos360.com.br/super_mario/" target="blank_"><img src="assets/marioimg.jpg" class="main__image"></a>
-				</div>
-			</section>
-			<section>
-					<h1 class="main__title" id="sonic">sonic</h1>
-					<p class="main__paragraph">Sonic the Hedgehog é uma franquia de jogos criada e produzida pela Sega. A franquia é centrada em uma série de jogos de plataforma focados em velocidade. O protagonista da série é um ouriço azul chamado Sonic, cuja vida pacífica é sempre interrompida pelo antagonista principal da série, Dr. Eggman.</p>
-				<div class="box__image">
-					<a href="https://www.jogos360.com.br/sonic/" target="blank_"><img src="assets/sonicgame.png" class="main__image"></a>
-					<a href="https://www.jogos360.com.br/sonic/" target="blank_"><img src="assets/sonicimg.jpg" class="main__image"></a>
-				</div>	
-			</section>
-			<section>
-					<h1 class="main__title" id="donkeykong">donkey kong</h1>
-					<p class="main__paragraph">Donkey Kong é um jogo de arcade desenvolvido pela Nintendo, lançado em 1981. É um primeiro exemplo do gênero plataforma, uma vez que a jogabilidade foca na movimentação do personagem principal por uma série de plataformas enquanto desvia de obstáculos.</p>
-				<div class="box__image">
-					<a href="https://www.jogos360.com.br/search.php?q=donkye+kong" target="blank_"><img src="assets/kong.jpg" class="main__image"></a>
-					<a href="https://www.jogos360.com.br/search.php?q=donkye+kong" target="blank_"><img src="assets/donkeygame.JPG" class="main__image"></a>
-				</div>
-			</section>
-			<section>
-					<h1 class="main__title" id="zelda">zelda</h1>
-					<p class="main__paragraph">The Legend of Zelda, é uma série de jogos eletrônicos da Nintendo criada em 1986 por Shigeru Miyamoto e Takashi Tezuka. Os jogos se passam no reino de Hyrule, num ambiente de fantasia. A jogabilidade mistura aventura e ação com elementos diversos.</p>
-				<div class="box__image">
-					<a href="https://www.jogos360.com.br/zelda/" target="blank_"><img src="assets/zeldaimg.jpg" class="main__image"></a>
-					<a href="https://www.jogos360.com.br/zelda/" target="blank_"><img src="assets/zeldaa.jpg" class="main__image"></a>
-				</div>
-			</section>
-			<section>
-					<h1 class="main__title" id="street">street fighter</h1>
-					<p class="main__paragraph">Street Fighter, popularmente abreviado para SF, é uma popular série de jogos de luta na qual o jogador controla lutadores de diversas partes do mundo, cada qual com seus golpes especiais. A série é propriedade da empresa de jogos Capcom e teve seu primeiro jogo lançado em agosto de 1987.</p>
-				<div class="box__image">
-					<a href="https://www.jogos360.com.br/street_fighter/" target="blank_"><img src="assets/streetfighter.jpg" class="main__image"></a>
-					<a href="https://www.jogos360.com.br/street_fighter/" target="blank_"><img src="assets/streett.jpeg" class="main__image"></a>
-				</div>
-			</section>
-		</main>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Games Anos 90</title>
+</head>
+<body>
+	<header>
+		<h1 class="header-title">jogos anos 90</h1>
+		<span id="menu-hamburger" onclick="handleMenu()" class="p-menu">&#9776;</span>
+		<span id="close-hamburger" onclick="handleMenu()" class="p-menu">&#9776;</span>
+		<nav id="menu">
+			<a class="nav-link" href="#supermario">super mario</a>
+			<a class="nav-link" href="#sonic">sonic</a>
+			<a class="nav-link" href="#donkeykong">donkey kong</a>
+			<a class="nav-link" href="#zelda">zelda</a>
+			<a class="nav-link" href="#street">street fighter</a>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h1 class="main-title" id="supermario">super mario</h1>
+			<p class="main-paragraph">Super Mario é uma série de jogos de plataformas criados pela Nintendo, e com o seu
+				mascote, Mario. Alternativamente chamada de série Super Mario Bros. ou simplesmente a série Mario, é a
+				série central da franquia maior de Mario.</p>
+			<div class="box-image">
+				<a href="https://www.jogos360.com.br/super_mario/" target="blank_"><img src="assets/mariogame.png"
+						class="main-image"></a>
+				<a href="https://www.jogos360.com.br/super_mario/" target="blank_"><img src="assets/marioimg.jpg"
+						class="main-image"></a>
+			</div>
+		</section>
+		<section>
+			<h1 class="main-title" id="sonic">sonic</h1>
+			<p class="main-paragraph">Sonic the Hedgehog é uma franquia de jogos criada e produzida pela Sega. A
+				franquia é centrada em uma série de jogos de plataforma focados em velocidade. O protagonista da série é
+				um ouriço azul chamado Sonic, cuja vida pacífica é sempre interrompida pelo antagonista principal da
+				série, Dr. Eggman.</p>
+			<div class="box-image">
+				<a href="https://www.jogos360.com.br/sonic/" target="blank_"><img src="assets/sonicgame.png"
+						class="main-image"></a>
+				<a href="https://www.jogos360.com.br/sonic/" target="blank_"><img src="assets/sonicimg.jpg"
+						class="main-image"></a>
+			</div>
+		</section>
+		<section>
+			<h1 class="main-title" id="donkeykong">donkey kong</h1>
+			<p class="main-paragraph">Donkey Kong é um jogo de arcade desenvolvido pela Nintendo, lançado em 1981. É um
+				primeiro exemplo do gênero plataforma, uma vez que a jogabilidade foca na movimentação do personagem
+				principal por uma série de plataformas enquanto desvia de obstáculos.</p>
+			<div class="box-image">
+				<a href="https://www.jogos360.com.br/search.php?q=donkye+kong" target="blank_"><img
+						src="assets/kong.jpg" class="main-image"></a>
+				<a href="https://www.jogos360.com.br/search.php?q=donkye+kong" target="blank_"><img
+						src="assets/donkeygame.JPG" class="main-image"></a>
+			</div>
+		</section>
+		<section>
+			<h1 class="main-title" id="zelda">zelda</h1>
+			<p class="main-paragraph">The Legend of Zelda, é uma série de jogos eletrônicos da Nintendo criada em 1986
+				por Shigeru Miyamoto e Takashi Tezuka. Os jogos se passam no reino de Hyrule, num ambiente de fantasia.
+				A jogabilidade mistura aventura e ação com elementos diversos.</p>
+			<div class="box-image">
+				<a href="https://www.jogos360.com.br/zelda/" target="blank_"><img src="assets/zeldaimg.jpg"
+						class="main-image"></a>
+				<a href="https://www.jogos360.com.br/zelda/" target="blank_"><img src="assets/zeldaa.jpg"
+						class="main-image"></a>
+			</div>
+		</section>
+		<section>
+			<h1 class="main-title" id="street">street fighter</h1>
+			<p class="main-paragraph">Street Fighter, popularmente abreviado para SF, é uma popular série de jogos de
+				luta na qual o jogador controla lutadores de diversas partes do mundo, cada qual com seus golpes
+				especiais. A série é propriedade da empresa de jogos Capcom e teve seu primeiro jogo lançado em agosto
+				de 1987.</p>
+			<div class="box-image">
+				<a href="https://www.jogos360.com.br/street_fighter/" target="blank_"><img
+						src="assets/streetfighter.jpg" class="main-image"></a>
+				<a href="https://www.jogos360.com.br/street_fighter/" target="blank_"><img src="assets/streett.jpeg"
+						class="main-image"></a>
+			</div>
+		</section>
+	</main>
+	<script src="main.js"></script>
+</body>
 </html>
